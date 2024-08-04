@@ -20,6 +20,9 @@ function getWordNum() {
 
 const wordNum = getWordNum()
 
+document.querySelector('title').innerText = `Wordle #${wordNum}`
+document.querySelector('#title').innerText = `Wordle #${wordNum}`
+
 const state = {
   config: {
     attempts: 6,
@@ -427,8 +430,6 @@ function getShareContent() {
         .join('')
     })
     .filter(row => row)
-  const word = document.getElementById('word-answer').innerHTML
-  const wordIndex = wordsGuessable.indexOf(word.toLowerCase())
   const text = [
     `Wordle Word #${wordNum} - T&M's Version: ${colorMatrix.length}/${state.config.attempts}`,
     ...colorMatrix,
