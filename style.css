@@ -31,14 +31,14 @@ body {
 #title {
   margin: 0;
   padding: 0;
-  font-size: 40px;
+  font-size: 36px;
   font-family: "NYT Karnak 400";
 }
 
 #subtitle {
   margin: 12px 0 24px;
   padding: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "NYT Franklin 700";
   font-weight: bolder;
 }
@@ -63,8 +63,8 @@ body {
 
 .playImage {
   margin: 0;
-  height: 80px;
-  width: 80px;
+  height: 65px;
+  width: 65px;
 }
 
 .playTitle {
