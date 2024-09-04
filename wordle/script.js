@@ -3,7 +3,7 @@
 // Initialize game variable
 const dictionaries = {}
 
-const wordsBase64 = ['d2F0ZXI=','c3VzaGk=','dmFsdWU=','YWxvaGE=','Y2FudWs=','bm9ydGg=','YmFnZWw=','Y2hlYXA=']
+const wordsBase64 = ['d2F0ZXI=','c3VzaGk=','dmFsdWU=','YWxvaGE=','Y2FudWs=','bm9ydGg=','YmFnZWw=','ZGVhbHM=']
 
 function getWordNum() {
   const url = window.location.href
